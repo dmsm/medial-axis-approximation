@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medial Axis Approximation Exploration</title>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-switch.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/two.min.js"></script>
+  <script type="text/javascript" src="js/math.min.js"></script>
+  <script type="text/javascript" src="js/polyk.js"></script>
+  <script type="text/javascript" src="js/transformations.js"></script>
+  <script type="text/javascript" src="js/poly2tri.js"></script>
+  <script type="text/javascript" src="js/crust.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/6.1.5/bootstrap-slider.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-switch.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/6.1.5/css/bootstrap-slider.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+      <div class="row">
+          <div id="canvas" class="col-sm-7"></div>
+          <div class="col-sm-5 scroll">
+              <div id="sidebar">
+                <div class="text-center">
+                  <h1>Medial Axis Approximation Exploration</h1>
+                </div>
+                <h4>by D. Smirnov, Z. Epstein, S. Miller</h4>
+                Visualize circumcircles: <input type="checkbox" id="color-demo"><br><br>
+                Sampling rate: <input id="epsilon-slider" data-slider-tooltip="hide" data-slider-id='epsilon-slider' type="text" data-slider-min="10" data-slider-max="333" data-slider-step="5" data-slider-value="0.01" hidden />
+                <div id="graph"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body {
+    overflow: hidden;
+    font-family: 'Rock Salt', cursive;
+}
+.scroll {
+    overflow: auto;
+    height: 100vh;
+}
+.social {
+    margin-top: 20px;
+}
+.social .fb-like {
+    vertical-align: top;
+    margin-right: 10px;
+}
+.social iframe {
+    vertical-align: top !important;
+}
+.social .git {
+    margin-left: 10px;
+    vertical-align: top;
+}
+h1 {
+    font-size: 30px;
+    color: #5E412F;
+    padding-bottom: 15px;
+    line-height: 150%;
+}
+h4 {
+  padding-bottom: 20px;
+}
+.canvas {
+    border-width: 0 1px;
+    border-color: #5E412F;
+    border-style: solid;
+    margin-left: 7.5px;
+}
+#sidebar {
+    min-height: 100%;
+    position: relative;
+}
+#sidebar-content {
+    padding-bottom: 70px
+}
+#controls {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+#controls button {
+    width: 32%;
+}
+#epsilon-slider {
+  margin-left: 30px;
+}
+
+.line {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
